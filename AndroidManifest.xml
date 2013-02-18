@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="experiment.android.easy"
+    android:versionCode="1"
+    android:versionName="1.0" >
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />  
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"></uses-permission>
+    <uses-sdk android:minSdkVersion="15" />
+       <instrumentation
+        android:name="android.test.InstrumentationTestRunner"
+        android:targetPackage="experiment.android.easy" />
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <uses-library android:name="com.google.android.maps" />
+        <activity
+            android:name=".MapManager"
+            android:label="@string/Map"
+            android:theme="@android:style/Theme.Black"
+             >
+        </activity>
+          <activity
+            android:name="drawingMap.MapRouteActivity"
+            android:label="@string/Route"
+            android:theme="@android:style/Theme.Black"
+             >
+        </activity>
+          <activity
+            android:name="userInterfaces.PlaceList"
+            android:label="@string/Places"
+            android:theme="@android:style/Theme.Black"
+             >
+        </activity>
+        <activity
+            android:name="userInterfaces.RouteDetails"
+            android:label="@string/RouteDetails"
+            android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+           <activity
+            android:name="userInterfaces.AdvancedSearch"
+            android:label="@string/AdvanceSearch"
+            android:theme="@android:style/Theme.Black"
+             >
+             </activity>
+                <activity
+            android:name="userInterfaces.RouteDetailsDisplay"
+            android:label="@string/RouteDetails"
+            android:theme="@android:style/Theme.Black"
+             >
+             </activity>
+           <activity
+            android:name="userInterfaces.Intermediater"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+             >
+             </activity>
+              <activity
+            android:name="userInterfaces.PlaceSearchInterMediater"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.NoTitleBar"
+             >
+        </activity>
+           <activity
+            android:name="userInterfaces.PlaceSearchResults"
+            android:label="@string/PlacesDetails"
+            android:theme="@android:style/Theme.Black"
+             >
+        </activity>
+                   <activity
+            android:name="userInterfaces.PlaceDetails"
+            android:label="@string/PlaceDetails"
+            android:theme="@android:style/Theme.Black"
+             >
+        </activity>
+        <activity android:name=".LoginScreen"
+            android:theme="@android:style/Theme.NoTitleBar"> 
+              <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

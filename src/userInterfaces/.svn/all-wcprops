@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces
+END
+PlaceList.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/PlaceList.java
+END
+RouteDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/RouteDetails.java
+END
+PlaceSearchInterMediater.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/PlaceSearchInterMediater.java
+END
+RouteDetailsDisplay.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/RouteDetailsDisplay.java
+END
+PlaceDetails.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/PlaceDetails.java
+END
+AdvancedSearch.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/AdvancedSearch.java
+END
+PlaceSearchResults.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/PlaceSearchResults.java
+END
+Intermediater.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/!svn/ver/3/trunk/ExperimentMaps/src/userInterfaces/Intermediater.java
+END
